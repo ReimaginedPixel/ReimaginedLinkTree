@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, cyan, purple, white);
+}
+
+header, footer {
+    background: linear-gradient(45deg, orange, darkorange);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: orange;
+    color: white;
+    text-align: center;
+}
+
+#intro img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+#intro h1 {
+    font-size: 3em;
+    animation: fadeIn 1s ease-in-out;
+}
+
+#intro p {
+    font-size: 1.5em;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#about, #what-i-do, #links, #messages {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#about img, #what-i-do img {
+    width: 200px;
+    height: auto;
+    margin: 20px;
+}
+
+#links ul {
+    list-style: none;
+    padding: 0;
+}
+
+#links li {
+    margin: 10px 0;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    background: grey;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    animation: scrollLeft 5s linear infinite;
+}
+
+.message img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.message-content {
+    text-align: left;
+}
+
+@keyframes scrollLeft {
+    from { transform: translateX(100%); }
+    to { transform: translateX(-100%); }
+}
+
+footer {
+    background: linear-gradient(45deg, orange, darkorange);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
