@@ -29,16 +29,16 @@ document.addEventListener('DOMContentLoaded', () => {
     // Create multiple testimonial boxes
     const testimonialsContainer = document.getElementById('testimonials');
     const testimonials = [
-        { username: 'Olana', text: 'Pixel nie istnieje on jest ai', img: 'images/DiscordPFP1.jpg' },
-        { username: 'Mr_Tostus', text: 'Troche Femboy ale spoko', img: 'images/DiscordPFP2.png' },
-        { username: 'Noli', text: 'dziękuję ❤️ chwila zbyt gejowskie', img: 'images/DiscordPFP3.png' },
-        { username: 'Deenichh', text: 'Pixel to Femboy', img: 'images/DiscordPFP4.png' },
-        { username: '₥Ɇ₮₳₥₣Ɇ₮₳₥ł₦Ɇ₭', text: 'to se pinguj idfc', img: 'images/DiscordPFP5.png' },
-        { username: 'q2014wick', text: 'aaaaa Dzięki 😄', img: 'images/DiscordPFP6.png' },
-        { username: 'Gramnamaksa', text: 'HALO PIXEL MISIAKU', img: 'images/DiscordPFP7.png' },
-        { username: 'ReimaginedMendar', text: 'KURWA!1!1 POMOCY', img: 'images/DiscordPFP8.png' },
-        { username: 'REXIO', text: 'bro are you live', img: 'images/DiscordPFP9.png' },
-        { username: 'rafal-gaming', text: 'PIXEL HALO ZA GRAJ', img: 'images/DiscordPFP10.png' }
+        { username: 'Olana', text: '           Pixel nie istnieje on jest ai----------', img: 'images/DiscordPFP1.jpg' },
+        { username: 'Mr_Tostus', text: '       Troche Femboy ale spoko-----------', img: 'images/DiscordPFP2.png' },
+        { username: 'Noli', text: '            dziękuję ❤️ chwila zbyt gejowskie', img: 'images/DiscordPFP3.png' },
+        { username: 'Deenichh', text: '        Pixel to Femboy------------------------', img: 'images/DiscordPFP4.png' },
+        { username: '₥Ɇ₮₳₥₣Ɇ₮₳₥ł₦Ɇ₭', text: '  to se pinguj idfc------------------------', img: 'images/DiscordPFP5.png' },
+        { username: 'q2014wick', text: '       aaaaa Dzięki 😄----------------------', img: 'images/DiscordPFP6.png' },
+        { username: 'Gramnamaksa', text: '     HALO PIXEL MISIAKU---------------', img: 'images/DiscordPFP7.png' },
+        { username: 'ReimaginedMendar', text: 'KURWA!1!1 POMOCY----------------', img: 'images/DiscordPFP8.png' },
+        { username: 'REXIO', text: '           bro are you live-------------------------', img: 'images/DiscordPFP9.png' },
+        { username: 'rafal-gaming', text: '    PIXEL HALO ZA GRAJ---------------', img: 'images/DiscordPFP10.png' }
     ];
 
     testimonials.forEach((testimonial, index) => {
